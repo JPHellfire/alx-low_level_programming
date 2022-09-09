@@ -6,7 +6,8 @@
 *when number is below 0: then n is negative
 * Return: (0)
 */
-int main(viod)
+
+int main(void)
 {
 	int n;
 	srand(time(0));
