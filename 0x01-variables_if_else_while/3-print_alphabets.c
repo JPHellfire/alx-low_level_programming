@@ -11,12 +11,12 @@ int main(void)
 {
 int a = 'a';
 int b = 'A';
-while (a <='z')
+while (a <= 'z')
 {
 putchar(a);
 a += 1;
 }
-while (b <='Z')
+while (b <= 'Z')
 {
 putchar(b);
 b += 1;
