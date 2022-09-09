@@ -1,9 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
 /**
-*main Start 
-*
-* Return (0)
+*main - assign random number to n var
+*when number is greater than 0: then n is positive, if number is 0: then n is zero
+*when number is below 0: then n is negative
+* Return: (0)
 */
 int main(viod)
 {
