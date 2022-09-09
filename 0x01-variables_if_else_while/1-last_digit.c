@@ -3,9 +3,10 @@
 #include <time.h>
 
 /**
-*main - assign random number to n var
-*number greater than 0: is positive, number = 0: then = 0
-*when number is below 0: then n is negative
+*var n store different val when executed
+*last digit of n > 5 then string "and is greater than 5"
+*last digit of n = 0 then string "and is 0"
+*last digit of n < 6 & !=0 then string "and is less than 6 and not 0"
 * Return: (0)
 */
 
