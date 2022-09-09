@@ -3,7 +3,7 @@
 #include <time.h>
 
 /**
-* Prints single digit of base 10 starting at 0 followed by new line
+* main - Prints single digit of base 10 starting at 0 followed by new line
 * Return: (0)
 */
 
