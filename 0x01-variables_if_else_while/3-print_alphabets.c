@@ -9,17 +9,17 @@
 
 int main(void)
 {
-int 1 = 'a';
-int 2 = 'A';
-while (1 <='z')
+int a = 'a';
+int b = 'A';
+while (a <='z')
 {
-putchar(1);
-1 += 1;
+putchar(a);
+a += 1;
 }
-while (2 <='Z')
+while (b <='Z')
 {
-putchar(2);
-2 += 1;
+putchar(b);
+b += 1;
 }
 putchar('\n');
 return (0);
