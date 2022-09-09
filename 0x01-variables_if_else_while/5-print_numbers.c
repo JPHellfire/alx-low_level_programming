@@ -9,11 +9,11 @@
 
 int main(void)
 {
-int sindig;
-while (sindig < 10)
+int sidig;
+while (sidig < 10)
 {
-printf("%d", singdig);
-singdig += 1;
+printf("%d", sidig);
+sidig += 1;
 }
 printf("\n");
 return (0);
