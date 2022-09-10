@@ -16,7 +16,7 @@ int x = 48;
 int y = 0;
 int z;
 int xyz = 44;
-while (y < = 99)
+while (y <= 99)
 {
 z = y + 1;
 while (z <= 99)
