@@ -3,7 +3,7 @@
 /**
 * main - prints all single digit numbers of base 10
 * followed by a new line. Only use putchar, twice
-* only write putchar
+* Allowed functions: write putchar
 * Return: (0)
 */
 
