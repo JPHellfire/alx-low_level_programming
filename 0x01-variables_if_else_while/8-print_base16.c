@@ -13,7 +13,7 @@ int x = 48;
 int y = 'a';
 while (x <= 57)
 {
-putchar(n);
+putchar(x);
 x += 1;
 }
 while (y <= 'f')
