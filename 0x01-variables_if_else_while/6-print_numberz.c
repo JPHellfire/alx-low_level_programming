@@ -8,11 +8,11 @@
 
 int main(void)
 {
-int x = 48;
-while (x <= 57)
+int n = 48;
+while (n <= 57)
 {
-putchar(x);
-x += 1;
+putchar(n);
+n += 1;
 }
 printf("\n");
 return (0);
