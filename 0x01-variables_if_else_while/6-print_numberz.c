@@ -10,11 +10,11 @@
 
 int main(void)
 {
-int sidig = 48;
-while (sidig <= 57)
+int x = 48;
+while (x <= 57)
 {
-putchar(sidig);
-sidig += 1;
+putchar(x);
+x += 1;
 }
 printf("\n");
 return (0);
