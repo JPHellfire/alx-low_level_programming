@@ -3,7 +3,10 @@
 #include <time.h>
 
 /**
-* main - 
+* main -  prints all possible combinations
+* 2 2 digits
+* separated by , followed by a space
+* print all with two digits. one be printed as 01
 * Return: (0)
 */
 
@@ -14,7 +17,7 @@ int y = 0;
 int z;
 int xyz= 44;
 
-while (y <= 99)
+while (y < = 99)
 {
 z = y + 1;
 while (z <= 99)
