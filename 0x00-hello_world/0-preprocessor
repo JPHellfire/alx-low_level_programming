@@ -1,2 +1,12 @@
-#!/bin/bash
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+int main (void)
+{
+	int age;
+	printf("Enter age:");
+	scanf("%d", &age);
+	printf("You are %d years old!", age);
+	return 0;
+}
 
