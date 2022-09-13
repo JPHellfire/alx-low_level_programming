@@ -1,1 +1,1 @@
-#define PRINT "_putchar\n"
+char c, *string = "_putchar\n";

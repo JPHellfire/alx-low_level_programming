@@ -7,6 +7,10 @@
 */
 int main(void)
 {
-fprintf(stderr, "%s", PRINT);
+int counter, length = strlen(string);
+for (counter = 0 ; counter < length; counter++)
+{
+putchar(string[counter]);
+}
 return (0);
 }
