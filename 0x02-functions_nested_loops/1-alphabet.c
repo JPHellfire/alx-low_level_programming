@@ -7,7 +7,7 @@
 *  lowercase, followed by a new line
 * Return: int (0)
 */
-void prntla(void)
+void print_alphabet(void)
 {
 int l = 'a';
 while (l <= 'z')
