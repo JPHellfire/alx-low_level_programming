@@ -1,1 +1,1 @@
-x
+#define PRINT "_putchar"

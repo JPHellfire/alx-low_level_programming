@@ -1,11 +1,12 @@
-include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
+#include "main.h"
 /**
-* main - Prints _putchar
-* Return: (0)
+* main - program that prints _putchar
+* Return: int (0)
 */
 int main(void)
 {
-printf("_putchar\n");
+fprintf(stderr, "%s", PRINT);
 return (0);
 }
