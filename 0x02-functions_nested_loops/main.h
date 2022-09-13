@@ -1,2 +1,2 @@
 char c, *string = "_putchar\n";
-char c, *string = "a b c d e f g h i j k l m n o p q r s t u v w x y z\n";
+char c, *alpha = "a b c d e f g h i j k l m n o p q r s t u v w x y z\n";

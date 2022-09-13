@@ -9,10 +9,10 @@
 */
 int main(void)
 {
-int counter, length = strlen(string);
+int counter, length = strlen(alpha);
 for (counter = 0 ; counter < length; counter++)
 {
-putchar(string[counter]);
+putchar(alpha[counter]);
 }
 return (0);
 }
