@@ -1,1 +1,1 @@
-char c, *string = "_putchar";
+char c, *string = "_putchar\n";
