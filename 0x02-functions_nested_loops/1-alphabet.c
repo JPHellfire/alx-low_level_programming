@@ -7,7 +7,7 @@
 *  lowercase, followed by a new line
 * Return: int (0)
 */
-void prntlwrcsalph(void)
+void prntla(void)
 {
 int l = 'a';
 while (l <= 'z')
