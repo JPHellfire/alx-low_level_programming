@@ -1,12 +1,16 @@
+#include <string.h>
 #include <stdio.h>
-#include <stdlib.h>
-#include "main.h"
+#include "Main.h"
 /**
 * main - program that prints _putchar
-* Return: int (0)
+* Return: int
 */
 int main(void)
 {
-fprintf(stderr, "%s", PRINT);
+int counter, length = strlen(string);
+for (counter = 0 ; counter < length; counter++)
+{
+putchar(string[counter]);
+}
 return (0);
 }
