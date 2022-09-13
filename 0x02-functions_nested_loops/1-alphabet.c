@@ -7,12 +7,13 @@
 *  lowercase, followed by a new line
 * Return: int (0)
 */
-int main(void)
+void prntlwrcsalph(void)
 {
-int counter, length = strlen(alpha);
-for (counter = 0 ; counter < length; counter++)
+int l = 'a';
+while (l <= 'z')
 {
-putchar(alpha[counter]);
+_putchar(l);
+l += 1;
 }
-return (0);
+_putchar(10);
 }
