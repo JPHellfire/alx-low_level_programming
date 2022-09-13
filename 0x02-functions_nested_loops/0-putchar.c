@@ -1,6 +1,6 @@
 #include <string.h>
 #include <stdio.h>
-#include "Main.h"
+#include "main.h"
 /**
 * main - program that prints _putchar
 * Return: int
