@@ -1,16 +1,15 @@
 #include "main.h"
-#include <unistd.h>
-/**
- * main - check the code
- *
- * Return: Always 0.
- */
 
-int main(void)
+/**
+ * print_alphabet - in lower case
+ * Return 0
+ */
+void print_alphabet(void)
 {
-for (char c = 'a' ; c <= 'z' ; c++)
+char i;
+for (i = 'a'; i <= 'z'; i++)
 {
-write(STDOUT_FILENO, &c, 1);
+_putchar(i);
 }
-return (0);
+putchar('\n');
 }
