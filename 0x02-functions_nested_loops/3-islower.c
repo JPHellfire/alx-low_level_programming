@@ -1,15 +1,28 @@
-/**
- * main - function that prints the alphabet, lowercase
- * Return: nothing.
- */
+#include <unistd.h>
 #include "main.h"
+/**
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
+void
+_putchar (char c)
+{
+write(STDOUT_FILENO, &c, 1);
+}
 void print_alphabet(void)
 {
-int l = 'a';
-while (l <= 'z')
+char alphabet;
+alphabet = 'a';
+while (alphabet <= 'z')
 {
-_putchar(l);
-l += 1;
+_putchar(alphabet);
+alphabet++;
 }
-_putchar(10);
+}
+int
+main(void)
+{
+print_alphabet();
+return (0);
 }
