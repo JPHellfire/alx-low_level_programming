@@ -1,2 +1,2 @@
 char c, *string = "_putchar\n";
-void printlphabet(void);
+void print_alphabet(void);
