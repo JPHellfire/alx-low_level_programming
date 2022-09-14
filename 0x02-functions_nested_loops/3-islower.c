@@ -1,5 +1,6 @@
 #include <unistd.h>
 #include "main.h"
+#include <stdio.h>
 #pragma once
 /**
  * main - check the code
