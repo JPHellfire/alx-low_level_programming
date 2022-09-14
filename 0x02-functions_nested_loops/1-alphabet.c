@@ -1,16 +1,13 @@
 #include "main.h"
 /**
-* print lowrcs alphabet letters
-*
-* Return: void
-*/
+ * print_alphabet - print_alphabet
+ * Return: Void
+ */
 void print_alphabet(void)
 {
-char letter = 'a';
-while (letter <= 'z')
+char a;
+for (a = 'a'; a <= 'z'; a++)
 {
-_putchar(letter);
-letter++;
+_putchar(a);
 }
 _putchar('\n');
-}
