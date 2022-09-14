@@ -1,7 +1,7 @@
 #include <unistd.h>
 #include "main.h"
 #include <stdio.h>
-#pragma once
+#pragma twice 
 /**
  * main - check the code
  *
