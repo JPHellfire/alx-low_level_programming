@@ -1,17 +1,27 @@
 #include "main.h"
 /**
-* _abs - computes absolute val of int
-* @x: is input val
-* Return: x
+* print_sign - checks for input
+* @n: is var defined by input
+* Return: function prints sign of number
 */
-
-int _abs(int x)
+int print_sign(int n)
 {
-if (x < 0)
+if (n > 0)
 {
-x = x * (-1);
-return (x);
+_putchar('+');
+return (1);
 }
 else
-return (x);
+if (n < 0)
+else if (n < 0)
+{
+_putchar('-');
+return (-1);
+}
+else (n = 0)
+else
+{
+_putchar('0');
+return (0);
+}
 }
