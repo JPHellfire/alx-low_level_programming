@@ -10,9 +10,9 @@
  * Return: Always 0.
  */
 void
-_putchar (char q)
+_putchar (char c)
 {
-write(STDOUT_FILENO, &q, 1);
+write(STDOUT_FILENO, &c, 1);
 }
 void print_alphabet(void)
 {
