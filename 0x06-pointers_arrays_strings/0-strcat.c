@@ -1,22 +1,19 @@
-#include "main.h"
 /**
-* _strcat- function of two strings.
-*
-* @dest: pointer to destination char
-* @src: pointer to source char
-* Return: char
+* _strcat - two strings
+* @dest: pointer to string
+* @src: pointer to source string
+* Return: pointer to resulting string
 */
 char *_strcat(char *dest, char *src)
 {
-unsigned int i = 0;
-unsigned int j = 0;
-while (*(dest + i) != '\0')
-i++;
-while (*(src + j) != '\0')
+int i, j;
+i = 0;
+for (j = 0; dest[j] != '\0'; j++)
+;
+while (src[i] != '\0')
 {
-*(dest + i) = *(src + j);
+dest[j + i] = src[i];
 i++;
-j++;
 }
 return (dest);
 }
