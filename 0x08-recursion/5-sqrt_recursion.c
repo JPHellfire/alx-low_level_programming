@@ -8,19 +8,24 @@ int _sqrt_recursion(int n)
 {
 if (n == 0)
 return (0);
-else if (n == 1)
+if (n == 1)
 return (1);
-else if (n < 0)
+if (n < 0)
 return (-1);
-else
-return (r(n, 1));
+return (getNumSqr(n, 1));
+/**
+* getNumSqr - function that gets de num of sqroot
+* @num: input number
+* @i: Counter variable
+* Return: int
+*/
 }
-int r(int n, int i)
+int getNumSqr(int num, int i)
 {
-if (n == (i * i))
+if (num == (i * i))
 return (i);
-else if (n > (i * i))
-return (r(n, i + 1));
+else if (num > (i * i))
+return (getNumSqr(num, i + 1));
 else
 return (-1);
 }
